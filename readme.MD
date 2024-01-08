@@ -6,7 +6,7 @@ Javascript: Escolha um número de 1 a 10
 O arquivo **app.js** contém a implementação de um simples jogo de
 adivinhação em Javascript. O objetivo do jogo é que o jogador adivinhe um número secreto gerado aleatoriamente entre 1 e 10.
 
-# 2. Variáveis GLobais
+# 2. Variáveis Globais
 - **listaDeNumerosSorteados**: Array que armazena os números sorteados para garantir que nenhum número seja repetido.
 - **numeroLimite**: Limite superior para o número secreto (no jogo, varia de 1 a 10).
 - **numeroSecreto**: Número aleatório a ser adivinhado pelo jogador.
@@ -16,8 +16,8 @@ adivinhação em Javascript. O objetivo do jogo é que o jogador adivinhe um nú
 
 ## 3.1 exibirNaTela(tag, texto)
 ### Parâmetros:
-**tag**: Tag HTML onde o texto deve ser exibido.
-**texto**: Texto a ser exibido na tela.
+- **tag**: Tag HTML onde o texto deve ser exibido.
+- **texto**: Texto a ser exibido na tela.
 
 ### Descrição:
 - Atualiza o conteúdo da tag especificada com o texto fornecido.
